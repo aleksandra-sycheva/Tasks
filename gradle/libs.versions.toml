@@ -9,12 +9,10 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.10.0"
 constraintlayout = "2.2.0"
-lifecycleViewmodel = "2.3.1"
-lifecycleLivedataKtx = "2.3.1"
-lifecycleViewmodelKtx = "2.3.1"
-roomRuntime = "2.3.0"
-roomKtx = "2.3.0"
-roomCompiler = "2.3.0"
+lifecycle_version = "2.3.1"
+room_version = "2.3.0"
+databindingKtx = "8.10.0-alpha07"
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -25,14 +23,13 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "lifecycleViewmodel" }
-androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
-androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
-androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomRuntime" }
-androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
-androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle_version" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle_version" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room_version" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room_version" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room_version" }
+androidx-databinding-ktx = { group = "androidx.databinding", name = "databinding-ktx", version.ref = "databindingKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-
