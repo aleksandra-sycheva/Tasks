@@ -14,6 +14,7 @@ lifecycleLivedataKtx = "2.3.1"
 roomRuntime = "2.3.0"
 roomKtx = "2.3.0"
 roomCompiler = "2.3.0"
+databindingKtx = "8.3.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -29,6 +30,7 @@ androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecy
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomRuntime" }
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
+androidx-databinding-ktx = { group = "androidx.databinding", name = "databinding-ktx", version.ref = "databindingKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

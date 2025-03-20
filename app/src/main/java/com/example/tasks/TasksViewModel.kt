@@ -16,8 +16,6 @@ class TasksViewModel(val dao: TaskDao) : ViewModel() {
             tasksString.value = formatTasks(taskList)
         }
     }
-
-
     fun addTask() {
         viewModelScope.launch {
             val task = Task()
